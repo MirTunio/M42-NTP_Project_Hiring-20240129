@@ -1,7 +1,7 @@
 # M42 NTP_Project_Hiring 20240129
 This is a small project to assess skills in various python libraries and system design. The idea here is to design a toy system to simulate two computers syncing their local time to each other. Synchronization of time is a deep problem in engineering and in science. Internet protocols, [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System), Space exploration, Batch processing tasks, even Einstein's [Special Relativity](https://en.wikipedia.org/wiki/Einstein_synchronisation).
 
-We are so accustomed to our phones and computers automatically syncing time based, have you ever thought about how this works? In principle, your phone exchanges messages with a 'time server' and asks it what the time is. In practice, these messages may be delayed or changed by noise as they are exchanged. This introduces some complexities. The more accurately we need to synchronize two clocks, the more exponentially difficult the task becomes.
+We are so accustomed to our phones and computers automatically syncing time, have you ever thought about how this works? In principle, your phone exchanges messages with a 'time server' and asks it what the time is. In practice, these messages may be delayed or changed by noise as they are exchanged. This introduces some complexities. The more accurately we need to synchronize two clocks, the more exponentially difficult the task becomes.
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/en/5/5b/Untitled_Perfect_Lovers.jpg" />
