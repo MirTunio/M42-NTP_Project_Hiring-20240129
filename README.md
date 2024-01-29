@@ -44,13 +44,13 @@ All three components can run on your local system.
 All communication between these three systems must be done using zmq.
 
 ## Deliverable:
-In the alloted time I expect you to furnish your first version of the above. At this stage I will recommend changes (if needed). Then I will review the final version and make an assessment. You may be as creative as you wish, and you may go above and beyod the required tasks if have the time.
+In the alloted time I expect you to furnish your first version of the above. At this stage I will recommend changes (if needed). Then I will review the final version and make an assessment. You may be as creative as you wish, and you may go above and beyond the required tasks if have the time.
 
 ### Resources:
 * Clean Code: https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29
 * Python Syle Guide (PEP 8): https://peps.python.org/pep-0008/
 * NASA Guidlines (not entirely applicable but good to read): https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Critical_Code (number 2 and 5 are applicable, [see]("https://www.geeksforgeeks.org/python-assert-keyword/"))
-* NTP guides: https://en.wikipedia.org/wiki/Network_Time_Protocol, 
+* Network Time Protocol: https://en.wikipedia.org/wiki/Network_Time_Protocol (You don't have to replicate this at all, but it is a good reference for your much simpler implementation)
 * ZMQ guide: https://zguide.zeromq.org/
 * An example of such a system is in the 'example' folder
 
