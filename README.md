@@ -9,7 +9,7 @@ We are so accustomed to our phones and computers automatically syncing time, hav
 
 You need to design a functioning toy system or simulation which demonstrates how to synchronize the clocks of a "slave" system to that of the "master" system. The slave and the master clock must be "connected" by a faulty transmission line which introduces noise and delays in a random manner. You must also devise a method to measure the effectiveness of the synchronisation algorithm you design.
 
-Recall that noise means that bits sent from one end of the line may be flipped by the time they reach the other end of the line. And delay refers to latencies, or the amount of time the signal takes to reach from the input to the output.
+Recall that noise means that information (or bits) sent from one end of the line may be changed (or flipped) randomly by the time they reach the other end of the line. And delay refers to latencies, or the amount of time the signal takes to reach from the input to the output.
 
 In essence, your time sync algorithm must account for three distinct sources of asynchronicity:
 1. The initial difference in time between master and slave
