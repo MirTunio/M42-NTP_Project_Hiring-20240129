@@ -31,7 +31,7 @@ You may use any modules to accomplish the task, however you must design the time
 
 ## Required Tasks:
 * Create a 'master clock' server which maintains the current time. This will be used as a reference clock for all 'slave clocks'
-* Create a 'transmission line' which will be used by master and slave to communicate. The line introduces random delays and errors into any data sent across it. 
+* Create a 'transmission line' which will be used by master and slave to communicate. The line introduces random delays and errors into any data sent across it. Random delays in transmission simulate latency. Errors can be introduced by changing data going across the line by a random amount; these occur with some probability 'p'.
 * Create a 'slave clock' which will sync it's time with the master clock using your own time syncing algorithm
 * Create a 'monitor' which shows the local time of the master and slave in realtime and to a resolution of 10 milliseconds, and an additional metric which quantifies the effectiveness of the time syncing algorithm.
 
@@ -44,7 +44,7 @@ All three components can run on your local system.
 All communication between these three systems must be done using zmq.
 
 ## Deliverable:
-In the alloted time I expect you to furnish your first version of the above. At this stage I will recommend changes (if needed). Then I will review the final version and make an assessment. You may be as creative as you wish, and you may go above and beyond the required tasks if have the time.
+In the alloted time I expect you to furnish your first version of the above. At this stage I will recommend changes (if needed). Then I will review the final version and make an assessment. You may be as creative as you wish, and you may go above and beyond the required tasks if have the time. Also note, you have considerable flexibility to implement the above, use your best judgement and do what is easiest to execute in the time given.
 
 ### Resources:
 * Clean Code: https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29
